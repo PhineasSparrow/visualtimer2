@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', sans-serif;
+  background: url('/background.png') center center / cover no-repeat;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+  color: #3b240b;
+}
+
+.start-button,
+.class-btn,
+.break-button {
+  background-color: #f2a900;
+  border: 2px solid #784421;
+  box-shadow: 3px 3px #3b240b;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.class-btn.active {
+  background-color: #e08900;
+}
+
+.timer-bar {
+  margin: 20px auto;
+  width: 80%;
+  height: 24px;
+  border: 2px solid #784421;
+  background: #f4e2b5;
+  position: relative;
+}
+
+.timer-bar .bar {
+  background: #4caf50;
+  height: 100%;
+}
+
+.timer-bar .timer-text {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  font-size: 14px;
+}
+
+.status-panel {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-panel .character {
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.status-panel .stats {
+  text-align: left;
+}
+
+.break-button {
+  margin-top: 20px;
+  background-color: #62a260;
+  color: white;
+}
